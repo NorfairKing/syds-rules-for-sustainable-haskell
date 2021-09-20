@@ -1,8 +1,5 @@
 # Syd's rules for sustainable Haskell
 
-
-
-
 * Make the simplest thing you can get away with.
 * Don't make things more general than you need to.
 * Don't make a system distributed if that's not a hard requirement.
@@ -24,3 +21,4 @@
 * Use as few languages extensions as you can get away with.
 * Don't try to break the laws of physics.
 * Don't try to prove "false".
+* Don't use any effect systems. Use `IO` or a `ReaderT` with a fixed `Env` over `IO`. No parametric environment and no parametric monad.
