@@ -1,6 +1,8 @@
 # Syd's rules for sustainable Haskell
 
 
+
+
 * Make the simplest thing you can get away with.
 * Don't make things more general than you need to.
 * Don't make a system distributed if that's not a hard requirement.
@@ -18,3 +20,5 @@
 * Don't use lenses. You don't need them.
 * Choose an automated formatter, don't argue about which one, and enforce its use.
 * Choose an automated linter and enforce its use.
+* Use prefix naming: `data Thing = { thingField :: FieldType }`
+* Use as few languages extensions as you can get away with.
