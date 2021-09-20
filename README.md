@@ -6,7 +6,7 @@
 * Make the simplest thing you can get away with.
 * Don't make things more general than you need to.
 * Don't make a system distributed if that's not a hard requirement.
-* Use sqlite if you can get away with not having more than one machine.
+* Use sqlite if you can get away with a single machine.
 * Use postgres if you cannot get away with having only one machine.
 * Solve the problem you have, not the problem you hope to have.
 * Write tests first. If you can't do that, you've probably made things too complex.
