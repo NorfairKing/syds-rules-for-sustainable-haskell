@@ -22,3 +22,5 @@
 * Choose an automated linter and enforce its use.
 * Use prefix naming: `data Thing = { thingField :: FieldType }`
 * Use as few languages extensions as you can get away with.
+* Don't try to break the laws of physics.
+* Don't try to prove "false".
