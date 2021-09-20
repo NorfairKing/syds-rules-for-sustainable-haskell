@@ -16,3 +16,5 @@
 * If your instance is not law-abiding, remove it.
 * Write json instances manually, and have roundtrip tests.
 * Don't use lenses. You don't need them.
+* Choose an automated formatter, don't argue about which one, and enforce its use.
+* Choose an automated linter and enforce its use.
