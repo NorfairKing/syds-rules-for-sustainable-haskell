@@ -26,6 +26,7 @@
 * Don't try to break the laws of physics.
 * Don't try to prove "false".
 * Don't use any effect systems. Use `IO` or a `ReaderT` with a fixed `Env` over `IO`. No parametric environment and no parametric monad.
+* Never implement a custom Show and/or Read instance. If you want an instance, derive it.
 
 ## Choosing a database
 
