@@ -19,7 +19,9 @@
 * Before writing an instance, write a function. Then reconsider whether you still need an instance. (You probably don't.)
 * Don't write an instance if you can't use it to write generic code.
 * If your instance is not law-abiding, remove it.
-* Write json instances manually, and have roundtrip tests.
+* Have roundtrip tests for any serialisation.
+* Have golden tests for any external output you produce. (That means "for every `ToJSON` instance" as well.)
+* Write JSON instances manually until you have both roundtrip tests and golden tests.
 * Don't use lenses. You don't need them.
 * Use prefix naming: `data Thing = { thingField :: FieldType }`
 * Use as few languages extensions as you can get away with.
